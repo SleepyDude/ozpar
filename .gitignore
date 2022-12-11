@@ -2,3 +2,6 @@ venv
 chromedriver
 
 */**/__pycache__
+**/.DS_Store
+
+catalog.html
