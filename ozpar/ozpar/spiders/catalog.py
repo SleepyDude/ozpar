@@ -18,7 +18,7 @@ class CatalogSpider(scrapy.Spider):
     def start_requests(self):
         # GET request
         url = 'https://www.ozon.ru/category/telefony-i-smart-chasy-15501/'
-        # url = 'https://www.ozon.ru/category/telefony-i-smart-chasy-15501/?sorting=rating'
+        # url = 'https://www.ozon.ru/category/telefony-i-smart-chasy-15501/?page=2&sorting=rating'
         # url = 'https://httpbin.org/get'
         # url = 'https://ipinfo.io/json'
         yield scrapy.Request(
@@ -26,10 +26,10 @@ class CatalogSpider(scrapy.Spider):
             meta = {
                 "playwright": True,
                 "playwright_context": "new",
-                "timeout": 20 * 1000,  # 20 seconds
+                "timeout": 60 * 1000,  # 60 seconds
                 "playwright_context_kwargs": {
-                    "java_script_enabled": False,
-                    "ignore_https_errors": False,
+                    "java_script_enabled": True,
+                    "ignore_https_errors": True,
                     "proxy": {
                         "server": "socks5://109.237.96.124:62134"
                     },
