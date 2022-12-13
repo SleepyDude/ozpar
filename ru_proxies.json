@@ -1,5 +1,14 @@
 [
   {
+    "ip": "178.238.125.38",
+    "port": "53136",
+    "protocols": [
+      "socks4"
+    ],
+    "source": "shiftyTR",
+    "cc": "RU"
+  },
+  {
     "ip": "109.237.96.124",
     "port": "62134",
     "protocols": [
@@ -9,17 +18,8 @@
     "cc": "RU"
   },
   {
-    "ip": "91.205.129.154",
-    "port": "36931",
-    "protocols": [
-      "socks4"
-    ],
-    "source": "shiftyTR",
-    "cc": "RU"
-  },
-  {
-    "ip": "109.237.97.141",
-    "port": "62134",
+    "ip": "85.234.25.73",
+    "port": "1080",
     "protocols": [
       "socks5"
     ],
@@ -27,34 +27,7 @@
     "cc": "RU"
   },
   {
-    "ip": "80.89.137.214",
-    "port": "4145",
-    "protocols": [
-      "socks4"
-    ],
-    "source": "shiftyTR",
-    "cc": "RU"
-  },
-  {
-    "ip": "83.234.76.155",
-    "port": "4145",
-    "protocols": [
-      "socks4"
-    ],
-    "source": "shiftyTR",
-    "cc": "RU"
-  },
-  {
-    "ip": "91.244.115.221",
-    "port": "31080",
-    "protocols": [
-      "socks4"
-    ],
-    "source": "shiftyTR",
-    "cc": "RU"
-  },
-  {
-    "ip": "188.134.1.49",
+    "ip": "178.35.177.242",
     "port": "3629",
     "protocols": [
       "socks4"
@@ -63,80 +36,35 @@
     "cc": "RU"
   },
   {
-    "ip": "46.0.203.186",
-    "port": "8080",
-    "cc": "RU",
-    "protocols": [
-      "http"
-    ],
-    "isanon": "elite",
-    "google_pass": false,
-    "https": "Yes",
-    "source": "geonode"
-  },
-  {
-    "ip": "77.108.78.20",
-    "port": "48079",
-    "cc": "RU",
+    "ip": "109.195.54.59",
+    "port": "4145",
     "protocols": [
       "socks4"
     ],
-    "isanon": "elite",
-    "google_pass": false,
-    "https": "Yes",
-    "source": "geonode"
+    "source": "shiftyTR",
+    "cc": "RU"
   },
   {
-    "ip": "46.173.35.229",
-    "port": "3629",
-    "cc": "RU",
+    "ip": "212.220.13.98",
+    "port": "4153",
     "protocols": [
       "socks4"
     ],
-    "isanon": "elite",
-    "google_pass": false,
-    "https": "Yes",
-    "source": "geonode"
-  },
-  {
-    "ip": "89.237.35.10",
-    "port": "51549",
-    "cc": "RU",
-    "protocols": [
-      "socks4"
-    ],
-    "isanon": "elite",
-    "google_pass": false,
-    "https": "Yes",
-    "source": "geonode"
-  },
-  {
-    "ip": "31.173.185.231",
-    "port": "1080",
-    "cc": "RU",
-    "protocols": [
-      "socks4"
-    ],
-    "isanon": "elite",
-    "google_pass": false,
-    "https": "Yes",
-    "source": "geonode"
-  },
-  {
-    "ip": "46.147.194.197",
-    "port": "1080",
-    "cc": "RU",
-    "protocols": [
-      "socks5"
-    ],
-    "isanon": "elite",
-    "google_pass": false,
-    "https": "Yes",
-    "source": "geonode"
+    "source": "shiftyTR",
+    "cc": "RU"
   },
   {
     "ip": "188.247.39.14",
     "port": "43032",
+    "protocols": [
+      "socks4"
+    ],
+    "source": "shiftyTR",
+    "cc": "RU"
+  },
+  {
+    "ip": "178.252.197.64",
+    "port": "4153",
     "cc": "RU",
     "protocols": [
       "socks4"
@@ -147,20 +75,8 @@
     "source": "geonode"
   },
   {
-    "ip": "194.226.164.214",
-    "port": "1080",
-    "cc": "RU",
-    "protocols": [
-      "socks4"
-    ],
-    "isanon": "elite",
-    "google_pass": false,
-    "https": "Yes",
-    "source": "geonode"
-  },
-  {
-    "ip": "176.123.218.6",
-    "port": "18080",
+    "ip": "109.70.189.51",
+    "port": "3629",
     "cc": "RU",
     "protocols": [
       "socks4"
@@ -176,6 +92,126 @@
     "cc": "RU",
     "protocols": [
       "http"
+    ],
+    "isanon": "elite",
+    "google_pass": false,
+    "https": "Yes",
+    "source": "geonode"
+  },
+  {
+    "ip": "84.52.123.163",
+    "port": "4145",
+    "cc": "RU",
+    "protocols": [
+      "socks4"
+    ],
+    "isanon": "elite",
+    "google_pass": false,
+    "https": "Yes",
+    "source": "geonode"
+  },
+  {
+    "ip": "178.35.177.242",
+    "port": "3629",
+    "cc": "RU",
+    "protocols": [
+      "socks4"
+    ],
+    "isanon": "elite",
+    "google_pass": false,
+    "https": "Yes",
+    "source": "geonode"
+  },
+  {
+    "ip": "95.68.225.138",
+    "port": "1080",
+    "cc": "RU",
+    "protocols": [
+      "socks5"
+    ],
+    "isanon": "elite",
+    "google_pass": false,
+    "https": "Yes",
+    "source": "geonode"
+  },
+  {
+    "ip": "194.58.104.111",
+    "port": "7497",
+    "cc": "RU",
+    "protocols": [
+      "socks5"
+    ],
+    "isanon": "elite",
+    "google_pass": false,
+    "https": "Yes",
+    "source": "geonode"
+  },
+  {
+    "ip": "46.149.34.206",
+    "port": "3629",
+    "cc": "RU",
+    "protocols": [
+      "socks4"
+    ],
+    "isanon": "elite",
+    "google_pass": false,
+    "https": "Yes",
+    "source": "geonode"
+  },
+  {
+    "ip": "82.142.147.174",
+    "port": "4145",
+    "cc": "RU",
+    "protocols": [
+      "socks4"
+    ],
+    "isanon": "elite",
+    "google_pass": false,
+    "https": "Yes",
+    "source": "geonode"
+  },
+  {
+    "ip": "178.76.254.130",
+    "port": "4145",
+    "cc": "RU",
+    "protocols": [
+      "socks4"
+    ],
+    "isanon": "elite",
+    "google_pass": false,
+    "https": "Yes",
+    "source": "geonode"
+  },
+  {
+    "ip": "109.232.106.150",
+    "port": "52435",
+    "cc": "RU",
+    "protocols": [
+      "socks4"
+    ],
+    "isanon": "elite",
+    "google_pass": false,
+    "https": "Yes",
+    "source": "geonode"
+  },
+  {
+    "ip": "46.21.77.122",
+    "port": "4153",
+    "cc": "RU",
+    "protocols": [
+      "socks4"
+    ],
+    "isanon": "elite",
+    "google_pass": false,
+    "https": "Yes",
+    "source": "geonode"
+  },
+  {
+    "ip": "85.116.120.106",
+    "port": "3629",
+    "cc": "RU",
+    "protocols": [
+      "socks4"
     ],
     "isanon": "elite",
     "google_pass": false,

@@ -6,7 +6,7 @@
 from scrapy.item import Item, Field
 
 
-class SmartphoneItem(Item):
+class LinkItem(Item):
     url = Field()
     page = Field()
     num = Field()

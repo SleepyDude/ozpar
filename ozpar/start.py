@@ -7,12 +7,14 @@ from scrapy.utils.project import get_project_settings
 from ozpar.spiders.catalog import CatalogSpider
 from twisted.internet.asyncioreactor import AsyncioSelectorReactor
 from twisted.internet import asyncioreactor
-
+from pprint import pprint as pp
 
 if __name__ == '__main__':
     configure_logging({'LOG_FORMAT': '%(levelname)s: %(message)s'})
-    
-    runner = CrawlerRunner(settings=get_project_settings())
+    settings = get_project_settings()
+    pp(settings)
+    runner = CrawlerRunner(settings=settings)
+
 
     install_reactor('twisted.internet.asyncioreactor.AsyncioSelectorReactor')
     print('IS ASYNC REACTOR INSTALLED: ', is_asyncio_reactor_installed())
